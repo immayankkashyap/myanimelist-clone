@@ -142,3 +142,18 @@
   max-width: 800px; /* Set a maximum width for the image */
   height: auto; /* Maintain aspect ratio */
 }
+
+.card {
+  min-width: 20px;
+  height: 15px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+  transition: transform 0.3s;
+}
