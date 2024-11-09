@@ -124,3 +124,16 @@
   .search-container button:hover {
     background-color: #3b5e99;
   }
+
+  .banner-link {
+    display: inline-block; /* Make the anchor tag behave like a block element */
+    background-color: #1a3a6e; /* Set the background color */
+    padding: 10px; /* Optional: add padding around the image */
+    border-radius: 5px; /* Optional: add rounded corners */
+    text-decoration: none; /* Remove underline from the link */
+}
+
+.banner-link img {
+    display: block; /* Prevents space below the image */
+    width: 100%; /* Make the image responsive */
+}
