@@ -1,34 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MyAnimeList Clone</title>
-    <link rel="stylesheet" href="styles/main.css">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <header>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="pages/anime-list.html">Anime List</a></li>
-                <li><a href="pages/top-anime.html">Top Anime</a></li>
-                <li><a href="pages/upcoming-anime.html">Upcoming</a></li>
-                <li><a href="pages/forum.html">Forum</a></li>
-                <li><a href="pages/reviews.html">Reviews</a></li>
-                <li><a href="pages/user-profile.html">Profile</a></li>
-                <li><a href="pages/login.html">Login</a></li>
-                <li><a href="pages/register.html">Register</a></li>
+        <div class="website_name">
+            <a href="index.html"> <img src="images/logo.png" width="150"></a>
+        </div>
+        <div class="homehead">
+            <a href="anime1.html" target="_blank"> <img src="images/homehead1.png" alt="banner" width="800">
+            </a>
+        </div>
+        <nav class="navbar">
+            <ul class="nav-links">
+                <li><a href="#">Anime</a></li>
+                <li><a href="#">Manga</a></li>
+                <li class="dropdown">
+                    <a href="#">Community</a>
+                    <div class="dropdown-content">
+                        <a href="#">Forums</a>
+                        <a href="#">Clubs</a>
+                        <a href="#">Events</a>
+                    </div>
+                </li>
+                <li><a href="#">Industry</a></li>
+                <li><a href="#">Watch</a></li>
+                <li><a href="#">Read</a></li>
+                <li><a href="#">Help</a></li>
             </ul>
+            <div class="search-container">
+                <select>
+                    <option>All</option>
+                    <option>Anime</option>
+                    <option>Manga</option>
+                </select>
+                <input type="text" placeholder="Search Anime, Manga, and more...">
+                <button type="submit">🔍</button>
+            </div>
         </nav>
     </header>
-    ghdg
-    <main>
-        <!-- Page-specific content goes here -->
-    </main>
-    <footer>
-        <p>&copy; 2024 MyAnimeList Clone</p>
-    </footer>
 </body>
+
 </html>
