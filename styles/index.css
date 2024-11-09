@@ -158,7 +158,7 @@
   transition: transform 0.3s;
 }
 
-body {
+main {
   font-family: Arial, sans-serif;
   display: flex;
   justify-content: center;
