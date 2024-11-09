@@ -26,6 +26,7 @@
   padding: 0.5rem 2rem;
   color: #fff;
   font-family: Arial, sans-serif;
+  margin-top: 0; /* Added this line */
 }
 
 .nav-links {
@@ -166,10 +167,11 @@
 
 .main-container {
   font-family: Arial, sans-serif;
-  background-color: #1a3a6e;
+  background-color: #121212;
   color: #fff;
   display: flex;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
+  margin-top: 0; /* Added this line */
 }
