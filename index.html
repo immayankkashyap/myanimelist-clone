@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MyAnimeList-Clone</title>
-    <link rel="stylesheet" href="../index.css">
+    <link rel="stylesheet" href="styles/index.css">
 </head>
 
 <body>
@@ -57,7 +57,14 @@
                 </li>
                 <li><a href="#">Watch</a></li>
                 <li><a href="#">Read</a></li>
-                <li><a href="#">Help</a></li>
+                <li class="dropdown">
+                    <a href="#">Help</a>
+                    <div class="dropdown-content">
+                        <a href="#">Top Anime</a>
+                        <a href="#">Seasonal Anime</a>
+                        <a href="#">All Time Hits</a>
+                        <a href="#">Recommendations</a>
+                    </div>
             </ul>
             <div class="search-container">
                 <select>
@@ -70,6 +77,27 @@
             </div>
         </nav>
     </header>
+    <main>
+
+<div class="slider-container">
+    <div class="card"><a href="bluelock.html" style="text-decoration: none; color: inherit;">
+        <img src="images/blue lock.jpg" alt="Description of Image" style="display: block;">
+        <p style="margin-top: 5px; text-align: center;">Blue Lock</p>
+    </a></div>
+    <div class="card">Card 2</div>
+    <div class="card">Card 3</div>
+    <div class="card">Card 4</div>
+    <div class="card">Card 5</div>
+  </div>
+  
+        <a href="https://example.com" style="text-decoration: none; color: inherit;">
+            <img src="your-image-url.png" alt="Description of Image" style="display: block;">
+            <p style="margin-top: 5px; text-align: center;">Your descriptive text goes here</p>
+        </a>
+
+
+
+    </main>
 </body>
 
 </html>
