@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image Row with Links</title>
+  <style>
+    /* Basic body styling */
+    body {
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      margin: 0;
+      background-color: #f0f0f0;
+    }
+
+    /* Container for image row */
+    .image-row {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+      padding: 20px;
+    }
+
+    /* Styling each image container */
+    .image-container {
+      text-align: center;
+      width: 150px;
+    }
+
+    /* Image styling */
+    .image-container img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      transition: transform 0.3s;
+    }
+
+    /* Image hover effect */
+    .image-container img:hover {
+      transform: scale(1.05);
+    }
+
+    /* Link styling */
+    .image-container a {
+      text-decoration: none;
+      color: #333;
+      font-size: 16px;
+      display: block;
+      margin-top: 8px;
+    }
+
+    /* Link hover effect */
+    .image-container a:hover {
+      color: #007bff;
+    }
+  </style>
+</head>
+<body>
+
+<div class="image-row">
+  <div class="image-container">
+    <a href="https://example1.com" target="_blank">
+      <img src="https://via.placeholder.com/150" alt="Image 1">
+      Image 1
+    </a>
+  </div>
+  <div class="image-container">
+    <a href="https://example2.com" target="_blank">
+      <img src="https://via.placeholder.com/150" alt="Image 2">
+      Image 2
+    </a>
+  </div>
+  <div class="image-container">
+    <a href="https://example3.com" target="_blank">
+      <img src="https://via.placeholder.com/150" alt="Image 3">
+      Image 3
+    </a>
+  </div>
+  <div class="image-container">
+    <a href="https://example4.com" target="_blank">
+      <img src="https://via.placeholder.com/150" alt="Image 4">
+      Image 4
+    </a>
+  </div>
+  <div class="image-container">
+    <a href="https://example5.com" target="_blank">
+      <img src="https://via.placeholder.com/150" alt="Image 5">
+      Image 5
+    </a>
+  </div>
+</div>
+
+</body>
+</html>

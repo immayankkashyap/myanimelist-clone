@@ -157,3 +157,56 @@
   color: #333;
   transition: transform 0.3s;
 }
+
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  background-color: #f0f0f0;
+}
+
+/* Container for image row */
+.image-row {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+/* Styling each image container */
+.image-container {
+  text-align: center;
+  width: 150px;
+}
+
+/* Image styling */
+.image-container img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s;
+}
+
+/* Image hover effect */
+.image-container img:hover {
+  transform: scale(1.05);
+}
+
+/* Link styling */
+.image-container a {
+  text-decoration: none;
+  color: #333;
+  font-size: 16px;
+  display: block;
+  margin-top: 8px;
+}
+
+/* Link hover effect */
+.image-container a:hover {
+  color: #007bff;
+}
