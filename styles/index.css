@@ -1,153 +1,261 @@
-* {
-  margin: 0;
-  padding: 0;
-}
-
 .website_name {
-  background-color: #000000;
-  padding: 10px;
-  justify-content: center;
+    background-color: #000000;
+    padding: 10px;
+    justify-content: center;
+  
+  }
+  
+  * {
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  .homehead {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1a3a6e; /* Set the background color of the div */
+    padding: 20px; /* Optional: add padding around the content */
+    text-align: center; /* Optional: center the content */
+  }
+  
+  /* Navbar Styling */
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #2b61b9;
+    /* Blue background */
+    padding: 0.5rem 2rem;
+    color: #fff;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Navigation Links */
+  .nav-links {
+    list-style-type: none;
+    display: flex;
+    gap: 1.5rem;
+    margin: 0;
+  }
+  
+  .nav-links li {
+    position: relative;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 0.5rem;
+  }
+  
+  .nav-links a:hover {
+    color: #b0d4f1;
+    /* Lighter blue on hover */
+  }
+  
+  /* Dropdown Menu */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #333;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    min-width: 150px;
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    display: block;
+    padding: 0.5rem 1rem;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #444;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  /* Search Container */
+  .search-container {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    background-color: #333;
+    padding: 0.2rem;
+    border-radius: 4px;
+  }
+  
+  .search-container select,
+  .search-container input[type="text"] {
+    padding: 0.5rem;
+    font-size: 0.9rem;
+    border: none;
+    color: #fff;
+    background-color: #333;
+    outline: none;
+  }
+  
+  .search-container select {
+    color: #fff;
+    background-color: #333;
+    padding-right: 0.5rem;
+  }
+  
+  .search-container input[type="text"]::placeholder {
+    color: #aaa;
+  }
+  
+  .search-container button {
+    padding: 0.4rem 0.6rem;
+    font-size: 1rem;
+    background-color: #4e7ac7;
+    /* Button blue */
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .search-container button:hover {
+    background-color: #3b5e99;
+  }
+
+  .banner-link {
+    display: inline-block; /* Make the anchor tag behave like a block element */
+    background-color: #1a3a6e; /* Set the background color */
+    padding: 10px; /* Optional: add padding around the image */
+    border-radius: 5px; /* Optional: add rounded corners */
+    text-decoration: none; /* Remove underline from the link */
 }
 
-.homehead {
+.banner-link img {
+  display: block; /* Prevents space below the image */
+  width: 100%; /* Make the image responsive */
+  max-width: 800px; /* Set a maximum width for the image */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.card {
+  min-width: 20px;
+  height: 15px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #1a3a6e;
-  padding: 20px;
-  text-align: center;
-}
-
-.navbar {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  background-color: #2b61b9;
-  padding: 0.5rem 2rem;
-  color: #fff;
-  font-family: Arial, sans-serif;
-}
-
-.nav-links {
-  list-style-type: none;
-  display: flex;
-  gap: 1.5rem;
-}
-
-.nav-links li {
-  position: relative;
-}
-
-.nav-links a {
-  text-decoration: none;
-  color: #fff;
-  font-size: 1rem;
+  align-items: left;
+  justify-content: left;
+  font-size: 18px;
   font-weight: bold;
-  padding: 0.5rem;
+  color: #333;
+  transition: transform 0.3s;
 }
 
-.nav-links a:hover {
-  color: #b0d4f1;
-}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  top: 100%;
-  left: 0;
-  background-color: #333;
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-  min-width: 150px;
-  z-index: 1;
-}
-
-.dropdown-content a {
-  display: block;
-  padding: 0.5rem 1rem;
-  color: #fff;
-  text-decoration: none;
-}
-
-.dropdown-content a:hover {
-  background-color: #444;
-}
-
-.dropdown:hover .dropdown-content {
-  display: block;
-}
-
-.search-container {
+body {
+  font-family: Arial, sans-serif;
   display: flex;
+  justify-content: center;
   align-items: center;
-  gap: 0.5rem;
-  background-color: #333;
-  padding: 0.2rem;
-  border-radius: 4px;
+  min-height: 100vh;
+  margin: 0;
+  background-color: #f0f0f0;
 }
 
-.search-container select,
-.search-container input[type="text"] {
-  padding: 0.5rem;
-  font-size: 0.9rem;
-  border: none;
-  color: #fff;
-  background-color: #333;
-  outline: none;
+/* Container for image row */
+.image-row {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  padding: 20px;
 }
 
-.search-container input[type="text"]::placeholder {
-  color: #aaa;
+/* Styling each image container */
+.image-container {
+  text-align: center;
+  width: 150px;
 }
 
-.search-container button {
-  padding: 0.4rem 0.6rem;
-  font-size: 1rem;
-  background-color: #4e7ac7;
-  color: #fff;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
+/* Image styling */
+.image-container img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s;
 }
 
-.search-container button:hover {
-  background-color: #3b5e99;
+/* Image hover effect */
+.image-container img:hover {
+  transform: scale(1.05);
 }
 
-.banner-link {
-  display: inline-block;
-  background-color: #1a3a6e;
-  padding: 10px;
-  border-radius: 5px;
+/* Link styling */
+.image-container a {
   text-decoration: none;
+  color: #333;
+  font-size: 16px;
+  display: block;
+  margin-top: 8px;
 }
 
+/* Link hover effect */
+.image-container a:hover {
+  color: #007bff;
+}
+
+/* Basic styling */
+main {
+  font-family: Arial, sans-serif;
+  background-color: #2b61b9;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+/* Container for the row of cards */
 .card-row {
   display: flex;
   gap: 20px;
   padding: 20px;
-  justify-content: center;
 }
 
+/* Individual card styling */
 .card {
   width: 150px;
   background-color: #222;
   border-radius: 8px;
   overflow: hidden;
+  position: relative;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
   text-align: center;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
+/* Hover effect for the card */
 .card:hover {
-  transform: scale(1.05);
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+  transform: scale(1.05); /* Slightly enlarges the card */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4); /* Adds a deeper shadow */
 }
 
+/* Image styling */
 .card img {
   width: 100%;
   height: auto;
+  display: block;
 }
 
+/* Title styling */
 .card .title {
   padding: 10px;
   font-size: 14px;
@@ -155,21 +263,13 @@
   color: #fff;
 }
 
+/* Link styling */
 .card a {
   text-decoration: none;
   color: inherit;
+  display: block;
 }
 
 .card a:hover .title {
-  color: #007bff;
-}
-
-.main-container {
-  font-family: Arial, sans-serif;
-  background-color: #121212;
-  color: #fff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
+  color: #007bff; /* Optional hover effect for title */
 }
