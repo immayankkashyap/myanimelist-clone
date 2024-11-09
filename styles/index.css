@@ -167,11 +167,14 @@
 
 .main-container {
   font-family: Arial, sans-serif;
-  background-color: #1a3a6e;
+  background-color: #121212;
   color: #fff;
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
-  margin-top: 0; /* Added this line */
+  min-height: auto;  /* This removes unnecessary height */
+  height: auto;  /* Set the height to auto to fit the content */
+  margin-top: 0;
+  padding: 20px 0;  /* Add any padding as necessary for spacing */
 }
+
