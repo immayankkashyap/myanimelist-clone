@@ -178,3 +178,23 @@
   padding: 20px 0;  /* Add any padding as necessary for spacing */
 }
 
+.section-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #fff;
+  text-align: center;
+  padding-bottom: 10px; /* Adds space between the title and the line */
+}
+
+hr {
+  border: 0;
+  border-top: 2px solid #fff; /* White line to match the theme */
+  margin: 20px 0; /* Adds vertical space around the line */
+}
+
+.card-row {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  justify-content: center;
+}
