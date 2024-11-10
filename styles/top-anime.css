@@ -1,45 +1,75 @@
+/* style.css */
+
 body {
     font-family: Arial, sans-serif;
-    background-color: #1a3a6e;
-    color: #dcdcdc;
+    background-color: #1c1c1c;
+    color: #e0e0e0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+h2 {
+    color: #fff;
+}
+
+p {
+    color: #aaa;
+    font-size: 0.9em;
 }
 
 table {
     width: 100%;
     border-collapse: collapse;
-    margin: 20px 0;
+    margin-top: 10px;
 }
 
-th, td {
-    border: 1px solid #333;
-    padding: 12px;
+table thead th {
+    color: #bfbfbf;
     text-align: left;
+    padding: 10px;
+    background-color: #333;
 }
 
-th {
-    background-color: #1f1f1f;
-}
-
-tr:nth-child(even) {
-    background-color: #1b1b1b;
-}
-
-tr:nth-child(odd) {
-    background-color: #2a2a2a;
+table tbody td {
+    padding: 10px;
+    border-top: 1px solid #444;
+    vertical-align: middle;
 }
 
 .rank {
-    text-align: center;
-    vertical-align: middle;
-    font-size: 24px;
     font-weight: bold;
+    text-align: center;
 }
 
 .title {
-    color: #7db9e8;
+    display: flex;
+    align-items: center;
+}
+
+.title img {
+    width: 50px;
+    height: 50px;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+.title .subtext {
+    font-size: 0.8em;
+    color: #aaa;
 }
 
 .score {
+    color: #ffd700;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-align: center;
+}
+
+.user-score {
     text-align: center;
 }
 
