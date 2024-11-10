@@ -175,6 +175,34 @@
   min-height: auto;  /* This removes unnecessary height */
   height: auto;  /* Set the height to auto to fit the content */
   margin-top: 0;
-  padding: 20px 0;  /* Add any padding as necessary for spacing */
+  padding: none;  /* Add any padding as necessary for spacing */
 }
 
+.section-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: left;
+  padding: none;
+}
+
+.section-title {
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  padding-top: 20px;
+  text-align: left;
+}
+
+.view-more-section {
+  background: none; /* Customize button color */
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  font-size: 14px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.view-more-section:hover {
+  text-decoration: underline; 
+}
