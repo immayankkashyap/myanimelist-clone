@@ -83,9 +83,9 @@ table tbody td {
     cursor: pointer;
 }
 
-.button:hover {
+/* .button:hover {
     background-color: #5a5a5a;
-}
+} */
   /* header */
   * {
     margin: 0px;
