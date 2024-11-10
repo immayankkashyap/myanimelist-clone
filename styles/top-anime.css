@@ -2,7 +2,7 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #1c1c1c;
+    background-color: #1a3a6e;
     color: #e0e0e0;
 }
 
@@ -14,6 +14,8 @@ body {
 
 h2 {
     color: #fff;
+    background-color: #1c1c1c;
+    padding: 10px;
 }
 
 p {
@@ -24,7 +26,7 @@ p {
 table {
     width: 100%;
     border-collapse: collapse;
-    margin-top: 10px;
+    background-color: #1c1c1c;
 }
 
 table thead th {
