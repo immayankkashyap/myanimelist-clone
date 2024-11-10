@@ -122,3 +122,88 @@
     border-radius: 5px;
     text-decoration: none;
   }
+  /* main */
+  /* style.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1a3a6e;
+    color: #e0e0e0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+h2 {
+    color: #fff;
+    background-color: #1c1c1c;
+    padding: 10px;
+}
+
+p {
+    color: #aaa;
+    font-size: 0.9em;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #1c1c1c;
+}
+
+table thead th {
+    color: #bfbfbf;
+    text-align: left;
+    padding: 10px;
+    background-color: #333;
+}
+
+table tbody td {
+    padding: 10px;
+    border-top: 1px solid #444;
+    vertical-align: middle;
+}
+
+.rank {
+    font-weight: bold;
+    text-align: center;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+}
+
+.title img {
+    width: 50px;
+    height: 50px;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+.title .subtext {
+    font-size: 0.8em;
+    color: #aaa;
+}
+
+.score {
+    color: #ffd700;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-align: center;
+}
+
+.user-score {
+    text-align: center;
+}
+
+.button {
+    background-color: #3a3a3a;
+    border: none;
+    color: #fff;
+    padding: 6px 12px;
+    cursor: pointer;
+}
