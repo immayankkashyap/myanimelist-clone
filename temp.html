@@ -3,106 +3,74 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Static Anime Card Row with Hover Effect</title>
-  <style>
-    /* Basic styling */
-    main {
-      font-family: Arial, sans-serif;
-      background-color: #121212;
-      color: #fff;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      min-height: 100vh;
-      margin: 0;
-    }
-
-    /* Container for the row of cards */
-    .card-row {
-      display: flex;
-      gap: 20px;
-      padding: 20px;
-    }
-
-    /* Individual card styling */
-    .card {
-      width: 150px;
-      background-color: #222;
-      border-radius: 8px;
-      overflow: hidden;
-      position: relative;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-      text-align: center;
-      transition: transform 0.3s ease, box-shadow 0.3s ease;
-    }
-
-    /* Hover effect for the card */
-    .card:hover {
-      transform: scale(1.05); /* Slightly enlarges the card */
-      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4); /* Adds a deeper shadow */
-    }
-
-    /* Image styling */
-    .card img {
-      width: 100%;
-      height: auto;
-      display: block;
-    }
-
-    /* Title styling */
-    .card .title {
-      padding: 10px;
-      font-size: 14px;
-      background: rgba(0, 0, 0, 0.7);
-      color: #fff;
-    }
-
-    /* Link styling */
-    .card a {
-      text-decoration: none;
-      color: inherit;
-      display: block;
-    }
-
-    .card a:hover .title {
-      color: #007bff; /* Optional hover effect for title */
-    }
-  </style>
+  <title>Footer Layout</title>
+  <link rel="stylesheet" href="temporary.css">
 </head>
 <body>
-
-<div class="card-row">
-  <div class="card">
-    <a href="https://example1.com" target="_blank">
-      <img src="https://via.placeholder.com/150x225" alt="Anime 1">
-      <div class="title">Dandadan</div>
-    </a>
-  </div>
-  <div class="card">
-    <a href="https://example2.com" target="_blank">
-      <img src="https://via.placeholder.com/150x225" alt="Anime 2">
-      <div class="title">Re:Zero 3rd Season</div>
-    </a>
-  </div>
-  <div class="card">
-    <a href="https://example3.com" target="_blank">
-      <img src="https://via.placeholder.com/150x225" alt="Anime 3">
-      <div class="title">Uzumaki</div>
-    </a>
-  </div>
-  <div class="card">
-    <a href="https://example4.com" target="_blank">
-      <img src="https://via.placeholder.com/150x225" alt="Anime 4">
-      <div class="title">Blue Lock vs. U-20 Japan</div>
-    </a>
-  </div>
-  <div class="card">
-    <a href="https://example5.com" target="_blank">
-      <img src="https://via.placeholder.com/150x225" alt="Anime 5">
-      <div class="title">Another Anime</div>
-    </a>
-  </div>
-</div>
-
+  <footer>
+    <div class="footer-content">
+      <div class="footer-sections">
+        <div class="footer-section">
+          <h3>Top Anime</h3>
+          <ul>
+            <li>1. Sousou no Frieren</li>
+            <li>2. One Piece Fan Letter</li>
+            <li>3. Fullmetal Alchemist: Brotherhood</li>
+            <li>4. Steins;Gate</li>
+            <li>5. Shingeki no Kyojin Season 3 Part 2</li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h3>Top Airing Anime</h3>
+          <ul>
+            <li>1. Bleach: Sennen Kessen-hen</li>
+            <li>2. Re:Zero kara Hajimeru Isekai Seikatsu</li>
+            <li>3. One Piece</li>
+            <li>4. Natsume Yuujinchou Shichi</li>
+            <li>5. Dandadan</li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h3>Most Popular Characters</h3>
+          <ul>
+            <li>1. Lamperouge, Lelouch</li>
+            <li>2. Levi</li>
+            <li>3. Monkey D., Luffy</li>
+            <li>4. Lawliet, L</li>
+            <li>5. Roronoa, Zoro</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-signup">
+        <p><strong>It’s time to ditch the text file.</strong> Keep track of your anime easily by creating your own list.</p>
+        <button class="signup-btn">Sign Up</button>
+        <button class="login-btn">Login</button>
+      </div>
+      <div class="footer-social">
+        <p>Follow Us</p>
+        <div class="social-icons">
+          <a href="#">Facebook</a>
+          <a href="#">Twitter</a>
+          <a href="#">Instagram</a>
+          <a href="#">Discord</a>
+        </div>
+      </div>
+      <div class="footer-links">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Press Room</a>
+        <a href="#">Support</a>
+        <a href="#">Advertising</a>
+        <a href="#">FAQ</a>
+        <a href="#">Terms</a>
+        <a href="#">Privacy</a>
+        <a href="#">Cookie</a>
+        <a href="#">Notice at Collection</a>
+        <a href="#">Sitemap</a>
+        <a href="#">Login</a>
+        <a href="#">Sign Up</a>
+      </div>
+    </div>
+  </footer>
 </body>
 </html>
