@@ -215,12 +215,6 @@ table tbody td {
     box-sizing: border-box;
   }
   
-  body {
-    font-family: Arial, sans-serif;
-    background-color: #121212;
-    color: #eee;
-  }
-  
   footer {
     background-color: #181818;
     padding: 20px;
