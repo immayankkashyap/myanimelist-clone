@@ -3,72 +3,125 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Anime & Manga News</title>
+    <link rel="stylesheet" href="../styles/news.css">
 </head>
 <body>
+
+    <!-- Header (use your existing header file) -->
     <header>
-        <div class="website_name">
-            <a href="index.html"> <img src="images/logo.png" width="150"></a>
-        </div>
-        <div class="homehead">
-            <a href="anime1.html" target="_blank" class="banner-link">
-                <img src="images/homehead1.png" alt="banner" width="800">
-            </a>
-        </div>
-        <nav class="navbar">
-            <ul class="nav-links">
-                <li><a href="index.html">Home</a></li>
-                <li class="dropdown">
-                    <a href="#">Anime</a>
-                    <div class="dropdown-content">
-                        <a href="pages/top-anime.html">Top Anime</a>
-                        <a href="#">Seasonal Anime</a>
-                        <a href="#">All Time Hits</a>
-                        <a href="#">Recommendations</a>
-                    </div>
-                </li>
-                <li class="dropdown">
-                    <a href="#">Manga</a>
-                    <div class="dropdown-content">
-                        <a href="pages/top-manga.html">Top Manga</a>
-                        <a href="pages/seasonal_manga.html">Seasonal Manga</a>
-                        <a href="#">All Time Hits</a>
-                        <a href="#">Recommendations</a>
-                    </div>
-                </li>
-                <li class="dropdown">
-                    <a href="#">Community</a>
-                    <div class="dropdown-content">
-                        <a href="#">Forums</a>
-                        <a href="#">Clubs</a>
-                        <a href="#">Events</a>
-                    </div>
-                </li>
-                <li class="dropdown">
-                    <a href="#">Industry</a>
-                    <div class="dropdown-content">
-                        <a href="pages/news.html">News</a>
-                        <a href="#">Featured Articles</a>
-                        <a href="#">Characters</a>
-                        <a href="#">Companies</a>
-                    </div>
-                </li>
-                <li><a href="#">Watch</a></li>
-                <li><a href="#">Read</a></li>
-                <li><a href="#">Help</a></li>
-            </ul>
-            <div class="search-container">
-                <select>
-                    <option>All</option>
-                    <option>Anime</option>
-                    <option>Manga</option>
-                </select>
-                <input type="text" placeholder="Search Anime, Manga, and more...">
-                <button type="submit">🔍</button>
+        <header>
+            <div class="website_name">
+                <a href="index.html"> <img src="../images/logo.png" width="150"></a>
             </div>
-        </nav>
+            <div class="homehead">
+                <a href="anime1.html" target="_blank" class="banner-link">
+                    <img src="../images/homehead1.png" alt="banner" width="800">
+                </a>
+            </div>
+            <nav class="navbar">
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li class="dropdown">
+                        <a href="#">Anime</a>
+                        <div class="dropdown-content">
+                            <a href="pages/top-anime.html">Top Anime</a>
+                            <a href="#">Seasonal Anime</a>
+                            <a href="#">All Time Hits</a>
+                            <a href="#">Recommendations</a>
+                        </div>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#">Manga</a>
+                        <div class="dropdown-content">
+                            <a href="pages/top-manga.html">Top Manga</a>
+                            <a href="pages/seasonal_manga.html">Seasonal Manga</a>
+                            <a href="#">All Time Hits</a>
+                            <a href="#">Recommendations</a>
+                        </div>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#">Community</a>
+                        <div class="dropdown-content">
+                            <a href="#">Forums</a>
+                            <a href="#">Clubs</a>
+                            <a href="#">Events</a>
+                        </div>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#">Industry</a>
+                        <div class="dropdown-content">
+                            <a href="../pages/news.html">News</a>
+                            <a href="#">Featured Articles</a>
+                            <a href="#">Characters</a>
+                            <a href="#">Companies</a>
+                        </div>
+                    </li>
+                    <li><a href="#">Watch</a></li>
+                    <li><a href="#">Read</a></li>
+                    <li><a href="#">Help</a></li>
+                </ul>
+                <div class="search-container">
+                    <select>
+                        <option>All</option>
+                        <option>Anime</option>
+                        <option>Manga</option>
+                    </select>
+                    <input type="text" placeholder="Search Anime, Manga, and more...">
+                    <button type="submit">🔍</button>
+                </div>
+            </nav>
+        </header>
     </header>
-    <main></main>
+
+    <!-- Main Content -->
+    <main class="news-container">
+        <section class="news-feed">
+            <h2>Latest News</h2>
+            <article class="news-item2">
+                <img src="../images/news1.png" alt="Anime Image 1" class="news-thumbnail">
+                <div class="news-content">
+                    <h2><a href="">Ganbare! Nakamura-kun!! Unveils Main Cast, First Promo</a></h2>
+                    <p>The official website of the Ganbare! Nakamura-kun!! (Go For It, Nakamura!) television anime revealed the main cast and the first promotional video on Saturday. The anime is scheduled to premiere in 2025. Chiaki Kobayashi (SK∞) and Yuuki Sakakihara (Dead Mount Death Play) are star...</p>
+                    <span class="date">Yesterday, 11:05 AM</span>
+                </div>
+            </article>
+            <article class="news-item">
+                <img src="../images/banish.png" alt="Anime Image 1" class="news-thumbnail" style="height: 80px; width: 85px;">
+                <div class="news-content">
+                    <h2><a href="../pages/fallenboy.html">A new anime by Aishani -> Fallen Boy</a></h2>
+                    <p>A new anime by Aishani is coming soon. She announced it on 11th October, 2024. It is going to be an original masterpiece. She has worked on this anime for years and she says she will release it soon.</p>
+                    <span class="date">3 hours ago</span>
+                </div>
+            </article>
+            <article class="news-item">
+                <img src="../images/news2.png" alt="Anime Image 1" class="news-thumbnail">
+                <div class="news-content">
+                    <h2><a href="">'Boukyaku Battery' Receives Second Season</a></h2>
+                    <p>The official website for the television anime adaptation of Eco Mikawa's Boukyaku Battery (Oblivion Battery) manga announced a second season on Sunday. The first season, produced by MAPPA, aired in 12 episodes in Spring 2024. Crunchyroll simulcast the anime with English subtitles...</p>
+                    <span class="date">Yesterday, 10:05 PM</span>
+                </div>
+            </article>
+            <article class="news-item">
+                <img src="../images/news3.png" alt="Anime Image 1" class="news-thumbnail">
+                <div class="news-content">
+                    <h2><a href="">'Yuru Camp△' Season 4 Announced</a></h2>
+                    <p>The Yuru Camp△ Season 3 Yuru Camper no Tsudoi special event announced a fourth anime season on Saturday, revealing a commemorative illustration by the original creator Afro (pictured). Yuru Camp△ adapts Afro's slice of life manga, which began in Manga Time Kirara Forward in May 2...</p>
+                    <span class="date">Yesterday, 8:25 AM</span>
+                </div>
+            </article>
+            <article class="news-item">
+                <img src="../images/news4.png" alt="Anime Image 1" class="news-thumbnail">
+                <div class="news-content">
+                    <h2><a href="">'Isshun de Chiryou shiteita noni Yakutatazu to Tsuihou sareta Tensai Chiyushi, Yami Healer toshite Tanoshiku Ikiru' Reveals Main Cast, Production Staff, Teaser Promo for Spring 2025</a></h2>
+                    <p>The official website for the television anime adaptation of Sakaku Hishikawa's Isshun de Chiryou shiteita noni Yakutatazu to Tsuihou sareta Tensai Chiyushi, Yami Healer toshite Tanoshiku Ikiru (The Brilliant Healer's New Life in the Shadows) light novel revealed the main cast, pr...</p>
+                    <span class="date">Nov 8, 11:59 AM</span>
+                </div>
+            </article>
+        </section>
+    </main>
+
+    <!-- Footer (use your existing footer file) -->
     <footer>
         <div class="footer-content">
           <div class="footer-sections">
@@ -106,14 +159,14 @@
           <div class="footer-social">
             <p>Follow Us</p>
             <div class="social-icons">
-              <a href="#">Facebook</a>
-              <a href="#">Twitter</a>
-              <a href="#">Instagram</a>
-              <a href="#">Discord</a>
+              <a href="https://www.facebook.com/profile.php?id=61565914986740"><img src="../../images/facebook.png" width=40px alt="Facebook"></a>
+              <a href="https://x.com/KharwarShash"><img src="../../images/twitter.png" width=40px alt="Twitter"></a>
+              <a href="https://www.instagram.com/shashk__k/"><img src="../../images/instagram.png" width=40px alt="Instagram"></a>
+              <a href="https://discordapp.com/users/914001554477056020"><img src="../../images/discord.png" width=40px alt="Discord"></a>
             </div>
           </div>
           <div class="footer-links">
-            <a href="#">Home</a>
+            <a href="../index.html">Home</a>
             <a href="#">About</a>
             <a href="#">Press Room</a>
             <a href="#">Support</a>
@@ -124,10 +177,9 @@
             <a href="#">Cookie</a>
             <a href="#">Notice at Collection</a>
             <a href="#">Sitemap</a>
-            <a href="#">Login</a>
-            <a href="#">Sign Up</a>
           </div>
         </div>
       </footer>
+
 </body>
 </html>
