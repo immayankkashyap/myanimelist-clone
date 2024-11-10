@@ -48,34 +48,6 @@
     margin-bottom: 5px;
   }
   
-  .footer-signup {
-    text-align: center;
-    margin-bottom: 20px;
-  }
-  
-  .footer-signup p {
-    font-size: 14px;
-    margin-bottom: 10px;
-  }
-  
-  .signup-btn, .login-btn {
-    margin: 5px;
-    padding: 8px 20px;
-    border: none;
-    cursor: pointer;
-    font-size: 14px;
-  }
-  
-  .signup-btn {
-    background-color: #3578e5;
-    color: #fff;
-  }
-  
-  .login-btn {
-    background-color: #3e3e3e;
-    color: #fff;
-  }
-  
   .footer-social {
     display: flex;
     flex-direction: column;
