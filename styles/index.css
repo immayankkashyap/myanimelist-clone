@@ -131,7 +131,7 @@
 
 .card {
   width: 150px;
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: black;
   border-radius: 8px;
   overflow: hidden;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
