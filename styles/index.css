@@ -121,7 +121,7 @@
   border-radius: 5px;
   text-decoration: none;
 }
-
+/* main*/
 .card-row {
   display: flex;
   gap: 20px;
@@ -175,6 +175,7 @@
   min-height: auto;  /* This removes unnecessary height */
   height: auto;  /* Set the height to auto to fit the content */
   margin-top: 0;
+  /* width: 80%; */
   padding: none;  /* Add any padding as necessary for spacing */
 }
 
