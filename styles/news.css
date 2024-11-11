@@ -248,13 +248,13 @@ footer {
     border-radius: 5px;
 }
 
-.news-content h2 a {
+.news-content h3 a {
     margin: 0;
     color: #ffcc00;
     font-size: 0.9em;
     text-decoration: none;
 }
-.news-content h2 a:hover{
+.news-content h3 a:hover{
     text-decoration: underline; 
     color:#ffcc00;
 }
@@ -271,6 +271,12 @@ footer {
 
 
 h2 {
+    color: #fff;
+    background-color: #1c1c1c;
+    padding: 10px;
+}
+
+h1 {
     color: #fff;
     padding: 10px;
 }
